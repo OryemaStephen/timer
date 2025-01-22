@@ -55,9 +55,9 @@ const CountdownTimer = () => {
 
   return (
     <div className="flex w-full flex-col items-center justify-center min-h-[87vh] lg:min-h-[88.5vh] dark:bg-gray-900 bg-gray-100">
-      <div className="grid justify-center w-full grid-cols-1 gap-4 px-6 py-5 lg:px-60 md:grid-cols-2">
+      <div className="grid justify-center w-full grid-cols-1 gap-4 px-6 py-5 lg:px-80 md:grid-cols-2">
         {/* Timer Section */}
-        <div className="p-4 bg-white rounded-lg shadow-lg">
+        <div className="p-8 bg-white rounded-lg shadow-lg">
           <h1 className="pt-3 pb-6 text-2xl font-bold text-center">
             Focused Timer
           </h1>
